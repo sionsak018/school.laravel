@@ -27,4 +27,4 @@ Route::get('/course', [PageController::class, 'course']);
 Route::get('/contact', [PageController::class, 'contact']);
 Route::get('/blog', [PageController::class, 'blog']);
 
-Route::get('/dashboard', [PageController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');        
+    
